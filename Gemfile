@@ -74,3 +74,6 @@ end
 # Add Slim Template
 gem 'slim-rails'
 gem 'html2slim'
+
+# Add Bootstrap
+gem 'bootstrap'
