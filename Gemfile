@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Add Slim Template
+gem 'slim-rails'
+gem 'html2slim'
