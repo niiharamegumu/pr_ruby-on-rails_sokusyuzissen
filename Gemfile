@@ -77,3 +77,6 @@ gem 'html2slim'
 
 # Add Bootstrap
 gem 'bootstrap'
+
+# text to link
+gem 'rails_autolink'
