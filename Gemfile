@@ -80,3 +80,6 @@ gem 'bootstrap'
 
 # text to link
 gem 'rails_autolink'
+
+# search
+gem 'ransack'
