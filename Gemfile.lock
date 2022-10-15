@@ -70,6 +70,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
+    bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
@@ -162,6 +163,8 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
+    rails_autolink (1.1.6)
+      rails (> 3.1)
     railties (7.0.4)
       actionpack (= 7.0.4)
       activesupport (= 7.0.4)
@@ -235,6 +238,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap
   bootstrap
   capybara
@@ -245,6 +249,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (= 7.0.4)
+  rails_autolink
   selenium-webdriver
   slim-rails
   sprockets-rails
